@@ -16,6 +16,9 @@
 		B8204F91270532F600F254CB /* StudentPracticeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8204F90270532F600F254CB /* StudentPracticeProjectTests.swift */; };
 		B8204F9B270532F600F254CB /* StudentPracticeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8204F9A270532F600F254CB /* StudentPracticeProjectUITests.swift */; };
 		B8204F9D270532F600F254CB /* StudentPracticeProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8204F9C270532F600F254CB /* StudentPracticeProjectUITestsLaunchTests.swift */; };
+		B8204FAA2705361F00F254CB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8204FA92705361F00F254CB /* CustomButton.swift */; };
+		B8DEFA2B271087FB00CDBEAF /* RobotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEFA2A271087FB00CDBEAF /* RobotViewController.swift */; };
+		B8DEFA2D2710916400CDBEAF /* RobotViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DEFA2C2710916400CDBEAF /* RobotViewStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B8204F96270532F600F254CB /* StudentPracticeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentPracticeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8204F9A270532F600F254CB /* StudentPracticeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentPracticeProjectUITests.swift; sourceTree = "<group>"; };
 		B8204F9C270532F600F254CB /* StudentPracticeProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentPracticeProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8204FA92705361F00F254CB /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B8DEFA2A271087FB00CDBEAF /* RobotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotViewController.swift; sourceTree = "<group>"; };
+		B8DEFA2C2710916400CDBEAF /* RobotViewStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RobotViewStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		B8204F78270532F500F254CB /* StudentPracticeProject */ = {
 			isa = PBXGroup;
 			children = (
+				B8DEFA2A271087FB00CDBEAF /* RobotViewController.swift */,
 				B8204F79270532F500F254CB /* AppDelegate.swift */,
 				B8204F7B270532F500F254CB /* SceneDelegate.swift */,
 				B8204F7D270532F500F254CB /* ViewController.swift */,
@@ -106,6 +113,8 @@
 				B8204F82270532F600F254CB /* Assets.xcassets */,
 				B8204F84270532F600F254CB /* LaunchScreen.storyboard */,
 				B8204F87270532F600F254CB /* Info.plist */,
+				B8204FA92705361F00F254CB /* CustomButton.swift */,
+				B8DEFA2C2710916400CDBEAF /* RobotViewStoryboard.storyboard */,
 			);
 			path = StudentPracticeProject;
 			sourceTree = "<group>";
@@ -234,6 +243,7 @@
 				B8204F86270532F600F254CB /* LaunchScreen.storyboard in Resources */,
 				B8204F83270532F600F254CB /* Assets.xcassets in Resources */,
 				B8204F81270532F500F254CB /* Main.storyboard in Resources */,
+				B8DEFA2D2710916400CDBEAF /* RobotViewStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8204FAA2705361F00F254CB /* CustomButton.swift in Sources */,
 				B8204F7E270532F500F254CB /* ViewController.swift in Sources */,
 				B8204F7A270532F500F254CB /* AppDelegate.swift in Sources */,
+				B8DEFA2B271087FB00CDBEAF /* RobotViewController.swift in Sources */,
 				B8204F7C270532F500F254CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
